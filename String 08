@@ -5,5 +5,9 @@
 //withoutEnd("coding") → "odin"
 
 public String withoutEnd(String str) {
-  
+  if (str.length()>= 2) {
+    int last = str.length()-1;
+    return str.substring(1, last);
+  }
+  return str;
 }
