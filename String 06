@@ -7,5 +7,8 @@
 //firstTwo("ab") → "ab"
 
 public String firstTwo(String str) {
-  
+  String two = "";
+  if (str.length() >= 2) two = str.substring(0,2);
+  else two = str;
+  return two;
 }
