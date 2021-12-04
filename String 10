@@ -5,5 +5,9 @@
 //nonStart("shotl", "java") → "hotlava"
 
 public String nonStart(String a, String b) {
-  
+  if (a.length() >= 1 && b.length() >= 1) {
+    a = a.substring(1, a.length());
+    b = b.substring(1, b.length());
+  }
+  return a + b;
 }
