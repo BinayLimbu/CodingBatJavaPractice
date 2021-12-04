@@ -5,3 +5,6 @@
 //theEnd("Hello", false) → "o"
 //theEnd("oh", true) → "o"
 
+public String theEnd(String str, boolean front) {
+  
+}
