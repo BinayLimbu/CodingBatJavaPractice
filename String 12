@@ -5,5 +5,9 @@
 //right2("Hi") → "Hi"
 
 public String right2(String str) {
-  
+  int end = str.length();
+  if (end > 1) {
+    return str.substring(end-2, end) + str.substring(0, end-2);
+  }
+  return str;
 }
