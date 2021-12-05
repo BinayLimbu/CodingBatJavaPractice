@@ -4,3 +4,6 @@
 //endsLy("y") → false
 //endsLy("oddy") → false
 
+public boolean endsLy(String str) {
+  
+}
