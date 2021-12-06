@@ -5,5 +5,6 @@
 //middleThree("solving") → "lvi"
 
 public String middleThree(String str) {
-  
+  int mid = (str.length() -1)/2; //accounts for str.length(3), 3-1/2 = 1 so (mid-1, mid+2) = (0,3) 
+  return str.substring(mid-1, mid+2);
 }
