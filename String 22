@@ -5,5 +5,5 @@
 //seeColor("blueTimes") → "blue"
 
 public String seeColor(String str) {
-  
+    if (str.length() > 2 && str.substring(0,3).equals("red")) return "red"; //str length limiter for index out of bounds errors if some chars match but string too short.
 }
