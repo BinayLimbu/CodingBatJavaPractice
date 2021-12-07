@@ -4,6 +4,7 @@
 //atFirst("hi") → "hi"
 //atFirst("h") → "h@"
 
-public String atFirst(String str) {
-  
+public String lastTwo(String str) {
+  if (str.length() > 1) {
+    int end = str.length(); //to make formatting easier
 }
