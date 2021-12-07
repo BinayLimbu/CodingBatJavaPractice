@@ -6,5 +6,8 @@
 
 public String lastTwo(String str) {
   if (str.length() > 1) {
-    int end = str.length(); //to make formatting easier
+    int end = str.length(); //to make formatting easier.
+    return str.substring(0, end-2) + str.substring(end-1, end) + str.substring(end-2, end-1); //cleaner to use charAt() but keeping similar syntax.
+  }
+  return str;
 }
