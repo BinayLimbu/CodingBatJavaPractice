@@ -5,5 +5,9 @@
 //frontAgain("ed") → true
 
 public boolean frontAgain(String str) {
-  
+  if (str.length() >= 2) {
+    String f2 = str.substring(0,2);
+    if (str.substring(str.length()-2, str.length()).equals(f2)) return true;
+  }
+  return false;
 }
