@@ -5,3 +5,6 @@
 //minCat("Hello", "java") → "ellojava"
 //minCat("java", "Hello") → "javaello"
 
+public String minCat(String a, String b) {
+  
+}
