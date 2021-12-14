@@ -6,5 +6,5 @@
 //minCat("java", "Hello") → "javaello"
 
 public String minCat(String a, String b) {
-  
+  int diff = Math.abs(a.length()-b.length()); //reduces lines of code
 }
