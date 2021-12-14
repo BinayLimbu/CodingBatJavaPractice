@@ -4,3 +4,7 @@
 //deFront("Hello") → "llo"
 //deFront("java") → "va"
 //deFront("away") → "aay"
+
+public String deFront(String str) {    
+  
+}
