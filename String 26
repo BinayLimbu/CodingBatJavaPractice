@@ -5,3 +5,6 @@
 //without2("HelloHi") → "HelloHi"
 //without2("Hi") → ""
 
+public String without2(String str) {
+  
+}
