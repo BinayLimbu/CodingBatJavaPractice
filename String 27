@@ -6,6 +6,6 @@
 //deFront("away") → "aay"
 
 public String deFront(String str) {
-  String fc = str.substring(0,1);
-  String sc = str.substring(1,2);
+  String fc = str.substring(0,1);  //first char
+  String sc = str.substring(1,2);  //second char
   if (fc.equals("a") && sc.equals("b")) return str;
