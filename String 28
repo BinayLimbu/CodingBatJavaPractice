@@ -5,3 +5,7 @@
 //startWord("hippo", "hi") → "hi"
 //startWord("hippo", "xip") → "hip"
 //startWord("hippo", "i") → "h"
+
+public String startWord(String str, String word) {
+  
+}
