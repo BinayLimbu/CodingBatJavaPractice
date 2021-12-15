@@ -9,3 +9,8 @@ public String deFront(String str) {
   String fc = str.substring(0,1);  //first char
   String sc = str.substring(1,2);  //second char
   if (fc.equals("a") && sc.equals("b")) return str;
+  if (fc.equals("a")) return fc+ str.substring(2,str.length());
+  if (sc.equals("b")) return str.substring(1, str.length());
+  
+  return str.substring(2, str.length());
+}
