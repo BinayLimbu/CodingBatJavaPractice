@@ -7,5 +7,5 @@
 //startWord("hippo", "i") → "h"
 
 public String startWord(String str, String word) {
-  
-}
+  int wl = word.length();
+  if (str.length() >= wl) {
