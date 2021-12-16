@@ -6,5 +6,8 @@
 //withoutX2("Hi") → "Hi"
 
 public String withoutX2(String str) {
-  
-}
+  if (str.length() == 0) return str;
+  if (str.length() == 1) {
+    if (str.charAt(0) == 'x') return "";
+    return str;
+  }
