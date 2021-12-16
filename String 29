@@ -5,5 +5,8 @@
 //withoutX("Hxix") → "Hxi"
 
 public String withoutX(String str) {
-  
-}
+  if (str.length() == 0) return str;
+  if (str.length() ==1) {
+    if (str.charAt(0) == 'x') return "";
+    return str;
+  }
