@@ -5,8 +5,8 @@
 //withoutX("Hxix") → "Hxi"
 
 public String withoutX(String str) {
-  if (str.length() == 0) return str;
-  if (str.length() ==1) {
-    if (str.charAt(0) == 'x') return "";
+  if (str.length() == 0) return str;  //for null
+  if (str.length() ==1) {   //to prevent index out of bounds error when trying to get end x with one char strings
+    if (str.charAt(0) == 'x') return "";  
     return str;
   }
