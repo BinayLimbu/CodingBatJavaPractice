@@ -5,3 +5,6 @@
 //countCode("codexxcode") → 2
 //countCode("cozexxcope") → 2
 
+public int countCode(String str) {
+  
+}
