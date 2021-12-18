@@ -5,3 +5,7 @@
 //endOther("Hiabc", "abc") → true
 //endOther("AbC", "HiaBc") → true
 //endOther("abc", "abXabc") → true
+
+public boolean endOther(String a, String b) {
+  
+}
