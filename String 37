@@ -3,3 +3,7 @@
 //bobThere("abcbob") → true
 //bobThere("b9b") → true
 //bobThere("bac") → false
+
+public boolean bobThere(String str) {
+  
+}
