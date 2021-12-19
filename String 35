@@ -7,5 +7,7 @@
 //endOther("abc", "abXabc") → true
 
 public boolean endOther(String a, String b) {
-  
-}
+  int al = a.length();
+  int bl = b.length();
+  String ax = a.toLowerCase();
+  String bx = b.toLowerCase();
