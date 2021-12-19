@@ -11,3 +11,7 @@ public boolean endOther(String a, String b) {
   int bl = b.length();
   String ax = a.toLowerCase();
   String bx = b.toLowerCase();
+  if (bl >= al && (bx.substring(bl-al, bl)).equals(ax)) return true;
+  if (al >= bl && (ax.substring(al-bl, al)).equals(bx)) return true;
+  return false;
+}
