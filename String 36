@@ -6,7 +6,8 @@
 //xyzThere("xyz.abc") → true
 
 public boolean xyzThere(String str) {
-  for (int i = 0; i < str.length()-2; i++)
+  if (str.length() >= 3 && str.substring(0, 3).equals("xyz")) return true;  //accounts for prefix xyz cases, no need for loop yet and removes later index errors
+  for (int i = 0; i < str.length()-2; i++) 
   if (str.substring(i, i+3).equals("xyz") && !str.substring(i-1, i).equals(".")) return true;
   return false;
 }
