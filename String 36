@@ -5,3 +5,6 @@
 //xyzThere("abc.xyz") → false
 //xyzThere("xyz.abc") → true
 
+public boolean xyzThere(String str) {
+  
+}
