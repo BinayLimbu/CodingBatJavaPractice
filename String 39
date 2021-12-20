@@ -10,3 +10,9 @@ public String mixString(String a, String b) {
   int bl = b.length();
   String result = "";
   int max = Math.max(al, bl);  //returns the bigger value out of the two
+  for (int i = 0; i < max; i++) {
+    if (i <= al-1) result += a.substring(i, i+1); //<= so a and b indexes take turns
+    if (i <= bl-1) result += b.substring(i, i+1);
+  }
+  return result;
+}
