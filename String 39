@@ -6,5 +6,7 @@
 //mixString("xxxx", "There") → "xTxhxexre"
 
 public String mixString(String a, String b) {
-  
-}
+  int al = a.length();
+  int bl = b.length();
+  String result = "";
+  int max = Math.max(al, bl);  //returns the bigger value out of the two
