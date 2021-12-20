@@ -13,3 +13,13 @@ public boolean xyBalance(String str) {
   }
   return true;
 }
+
+//Alternatively the increment method:
+public boolean xyBalance(String str) {
+  int y = -1;   //for finding rightmost y
+  for (int i = 0; i < str.length(); i++)
+  if (str.charAt(i) == 'y') y = i;
+  for (int i = 0; i < str.length(); i++)  //look at the x's and return false if one is after y
+  if (str.charAt(i) == 'x' && i > y) return false;
+  return true;
+}
