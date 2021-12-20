@@ -4,3 +4,7 @@
 //xyBalance("aaxbby") → true
 //xyBalance("aaxbb") → false
 //xyBalance("yaaxbb") → false
+
+public boolean xyBalance(String str) {
+  
+}
