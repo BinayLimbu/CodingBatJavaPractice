@@ -9,4 +9,7 @@
 public String repeatEnd(String str, int n) {
  String s = str.substring(str.length()-n, str.length());
  String result = "";
- 
+ for (int i = 0; i < n; i++)
+ result += s;
+ return result;
+}
