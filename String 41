@@ -7,4 +7,6 @@
 //repeatFront("Chocolate", 3) → "ChoChC"
 //repeatFront("Ice Cream", 2) → "IcI"
 
-
+public String repeatFront(String str, int n) {
+  
+}
