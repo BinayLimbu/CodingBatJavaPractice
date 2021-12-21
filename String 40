@@ -7,5 +7,6 @@
 //repeatEnd("Hello", 1) → "o"
 
 public String repeatEnd(String str, int n) {
-  
-}
+ String s = str.substring(str.length()-n, str.length());
+ String result = "";
+ 
