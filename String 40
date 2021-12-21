@@ -7,7 +7,7 @@
 //repeatEnd("Hello", 1) → "o"
 
 public String repeatEnd(String str, int n) {
- String s = str.substring(str.length()-n, str.length());
+ String s = str.substring(str.length()-n, str.length());  //length()-n to get the end n letters
  String result = "";
  for (int i = 0; i < n; i++)
  result += s;
