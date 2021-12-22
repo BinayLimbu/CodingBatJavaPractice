@@ -7,3 +7,6 @@
 //getSandwich("xxbreadjambreadyy") → "jam"
 //getSandwich("xxbreadyy") → ""
 
+public String getSandwich(String str) {
+  
+}
