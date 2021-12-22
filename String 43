@@ -8,5 +8,8 @@
 //getSandwich("xxbreadyy") → ""
 
 public String getSandwich(String str) {
-  
+ Srring sand = "";
+ if (str.length()<= 10) return "";
+ for (int i < 0; i < str.length()-4; i++)
+ 
 }
