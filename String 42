@@ -8,3 +8,6 @@
 //xyzMiddle("AxyzBB") → true
 //xyzMiddle("AxyzBBB") → false
 
+public boolean xyzMiddle(String str) {
+  
+}
