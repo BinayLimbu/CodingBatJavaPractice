@@ -8,6 +8,7 @@
 //xyzMiddle("AxyzBB") → true
 //xyzMiddle("AxyzBBB") → false
 
-public boolean xyzMiddle(String str) {
-  
-}
+public String repeatSeparator(String word, String sep, int count) {
+ String result = ""; 
+ if (count > 0) {
+   for (int i = 0; i < count-1; i++)
