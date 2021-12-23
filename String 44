@@ -7,5 +7,4 @@
 //sameStarChar("*xa*az") → true
 
 public boolean sameStarChar(String str) {
-  
-}
+  for (int i = 1; i < str.length()-1; i++)  //i = 1 and str.length()-1 to avoid if statements for * for first or last char.
