@@ -9,5 +9,7 @@
 //oneTwo("tcagdo") → "catdog"
 
 public String oneTwo(String str) {
+  int len = str.length();
+  String result = "";
+  if (len >= 3) 
   
-}
