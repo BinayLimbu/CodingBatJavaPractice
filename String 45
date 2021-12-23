@@ -7,3 +7,7 @@
 //oneTwo("abc") → "bca"
 //oneTwo("tca") → "cat"
 //oneTwo("tcagdo") → "catdog"
+
+public String oneTwo(String str) {
+  
+}
