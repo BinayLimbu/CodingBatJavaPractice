@@ -7,3 +7,6 @@
 //starOut("ab**cd") → "ad"
 //starOut("sm*eilly") → "silly"
 
+public String starOut(String str) {
+  
+}
