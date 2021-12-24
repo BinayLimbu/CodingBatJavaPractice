@@ -9,3 +9,6 @@
 //zipZap("zzzopzop") → "zzzpzp"
 
 
+public String zipZap(String str) {
+
+}
