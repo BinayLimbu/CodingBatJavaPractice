@@ -9,4 +9,10 @@ public String plusOut(String str, String word) {
   int slen = str.length();
   int wlen = word.length();
   String result = "";
-  
+  for (int i = 0; i < slen; i++)
+  if (i <= slen - wlen) {
+    String s = str.substring(i,i+wlen);
+    if (s.equals(word)) {
+      result += word;
+      i += wlen-1;
+      
