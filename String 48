@@ -11,16 +11,16 @@ public String plusOut(String str, String word) {
   String result = "";
   
   for (int i = 0; i < slen; i++)
-  if (i <= slen - wlen) {
-    String s = str.substring(i,i+wlen);
+  if (i <= slen - wlen) {  //for index limit
+    String s = str.substring(i,i+wlen); //temp string to compare if word matches.
     if (s.equals(word)) {
       result += word;
-      i += wlen-1;
+      i += wlen-1;  //-1 to prevent index oob error
     }
     else
-      result += "+";
+      result += "+";  //add +'s if not word
   }
   else
-    result += "+";
+    result += "+";  //add +'s only since not word
   return result;
 }
