@@ -7,5 +7,7 @@
 //countYZ("day fyyyz") → 2
 
 public int countYZ(String str) {
-  
-}
+  int len = str.length();
+  int count = 0;
+  for (int i = 0; i < len; i++)
+  if (str.charAt(i) == 'y' || str.charAt(i) == 'z') {
