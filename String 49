@@ -12,3 +12,7 @@ public String wordEnds(String str, String word) {
   for (int i = 0; i < slen-wlen+1; i++) {   //+1 to prevent index oob error
     String s = str.substring(i,i+wlen);   //temp string for word check
     if (i > 0 && s.equals(word)) result += str.substring(i-1,i);  //append front char to result
+    if (i < slen-wlen && s.equals(word)) result += str.substring(i+wlen,i+wlen+1);  //append rear char to result
+  }
+  return result;
+}
