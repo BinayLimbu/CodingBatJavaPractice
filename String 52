@@ -4,3 +4,7 @@
 //equalIsNot("This is not") → false
 //equalIsNot("This is notnot") → true
 //equalIsNot("noisxxnotyynotxisi") → true
+
+public boolean equalIsNot(String str) {
+  
+}
