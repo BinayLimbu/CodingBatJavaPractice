@@ -5,3 +5,6 @@
 //withoutString("Hello there", "e") → "Hllo thr"
 //withoutString("Hello there", "x") → "Hello there"
 
+public String withoutString(String base, String remove) {
+  
+}
