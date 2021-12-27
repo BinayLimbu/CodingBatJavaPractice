@@ -18,4 +18,4 @@ public String withoutString(String base, String remove) {
       if (!s.equals(lowrem))
         result += base.substring(i,i+1);  //if substring does not equal base then append to result
       else {
-        i += rlen-1;  //
+        i += rlen-1;  //else increment i to skip base
