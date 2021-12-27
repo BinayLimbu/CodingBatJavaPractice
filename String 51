@@ -13,9 +13,9 @@ public String withoutString(String base, String remove) {
   String result = "";
   
   for (int i = 0; i < blen; i++) {
-    if (i <= blen - rlen) {
+    if (i <= blen - rlen) {  //index range to avoid error
       String s = lowbase.substring(i,i+rlen);  //string to compare base in string
       if (!s.equals(lowrem))
-        result += base.substring(i,i+1);  
+        result += base.substring(i,i+1);  //if substring does not equal base then append to result
       else {
-        i += rlen-1;
+        i += rlen-1;  //
