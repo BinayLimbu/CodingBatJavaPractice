@@ -12,4 +12,10 @@ public String withoutString(String base, String remove) {
   int rlen = remove.length();
   String result = "";
   
-}
+  for (int i = 0; i < blen; i++) {
+    if (i <= blen - rlen) {
+      String s = lowbase.substring(i,i+rlen);  //string to compare base in string
+      if (!s.equals(lowrem))
+        result += base.substring(i,i+1);  
+      else {
+        i += rlen-1;
