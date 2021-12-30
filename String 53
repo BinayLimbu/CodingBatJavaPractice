@@ -5,3 +5,6 @@
 //gHappy("xxgxx") → false
 //gHappy("xxggyygxx") → false
 
+public boolean gHappy(String str) {
+  
+}
