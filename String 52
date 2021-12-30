@@ -6,5 +6,5 @@
 //equalIsNot("noisxxnotyynotxisi") → true
 
 public boolean equalIsNot(String str) {
-  
-}
+    int is = 0;
+    int not = 0;
