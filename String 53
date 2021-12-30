@@ -6,5 +6,6 @@
 //gHappy("xxggyygxx") → false
 
 public boolean gHappy(String str) {
+  int len = str.length();
+  boolean happy = true;
   
-}
