@@ -4,3 +4,6 @@
 //countTriple("xxxabyyyycd") → 3
 //countTriple("a") → 0
 
+public int countTriple(String str) {
+  
+}
