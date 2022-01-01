@@ -6,5 +6,7 @@
 //sameEnds("xxx") → "x"
 
 public String sameEnds(String string) {
+  int len = string.length();
+  String result = "";
+  String pair = "";
   
-}
