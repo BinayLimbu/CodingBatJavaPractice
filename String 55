@@ -4,3 +4,7 @@
 //sumDigits("aa1bc2d3") → 6
 //sumDigits("aa11b33") → 8
 //sumDigits("Chocolate") → 0
+
+public int sumDigits(String str) {
+  
+}
