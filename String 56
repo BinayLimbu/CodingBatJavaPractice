@@ -9,4 +9,10 @@ public String sameEnds(String string) {
   int len = string.length();
   String result = "";
   String pair = "";
-  
+  for (int i = 0; i < len; i++) {
+   pair += string.charAt(i);
+   int plen = pair.length();
+   if (i < len / 2 && pair.equals(string.substring(len-plen,len))) result = pair;  //i < len/2 within index bounds for a pair
+  }
+  return result;
+}
