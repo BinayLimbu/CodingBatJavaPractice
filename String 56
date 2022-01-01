@@ -4,3 +4,7 @@
 //sameEnds("abXYab") → "ab"
 //sameEnds("xx") → "x"
 //sameEnds("xxx") → "x"
+
+public String sameEnds(String string) {
+  
+}
