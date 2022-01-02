@@ -11,5 +11,8 @@ public String mirrorEnds(String string) {
   String result = "";
   String s1 = "";
   String s2 = "";
-  
+  for (int i = 0; i < len; i++) {
+    s1 += string.substring(i, i+1);  //s1 = check for mirror char
+    s2 = "";    //appending string for added mirror chars
+    for (int j = s1.length()-1; j >= 0; j--) {   //reverse loop for easier comparison
 }
