@@ -7,5 +7,9 @@
 //mirrorEnds("aba") → "aba"
 
 public String mirrorEnds(String string) {
+  int len = string.length();
+  String result = "";
+  String s1 = "";
+  String s2 = "";
   
 }
