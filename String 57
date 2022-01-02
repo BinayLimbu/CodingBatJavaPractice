@@ -9,10 +9,15 @@
 public String mirrorEnds(String string) {
   int len = string.length();
   String result = "";
-  String s1 = "";
-  String s2 = "";
+  String s1 = "";  //used for front chars
+  String s2 = "";  //used for rear chars
   for (int i = 0; i < len; i++) {
-    s1 += string.substring(i, i+1);  //s1 = check for mirror char
-    s2 = "";    //appending string for added mirror chars
+    s1 += string.substring(i, i+1);  //s1 = checking and appending front chars
+    s2 = "";    //must be declared here to avoid null
     for (int j = s1.length()-1; j >= 0; j--) {   //reverse loop for easier comparison
+    s2 += string.substring(j,j+1);  //s2 = checking and appending rear chars
+      if (s2.equals(string.substring(len-i-1,len))) result = s1;  //if front and rear chars mirror then append to final result string 
+    }
+  }
+  return result;
 }
