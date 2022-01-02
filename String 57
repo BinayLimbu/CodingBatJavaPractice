@@ -6,3 +6,6 @@
 //mirrorEnds("abca") → "a"
 //mirrorEnds("aba") → "aba"
 
+public String mirrorEnds(String string) {
+  
+}
