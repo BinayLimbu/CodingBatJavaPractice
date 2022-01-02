@@ -4,3 +4,6 @@
 //maxBlock("abbCCCddBBBxx") → 3
 //maxBlock("") → 0
 
+public int maxBlock(String str) {
+  
+}
