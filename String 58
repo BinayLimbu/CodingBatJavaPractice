@@ -5,5 +5,6 @@
 //maxBlock("") → 0
 
 public int maxBlock(String str) {
-  
-}
+  int max = 0;
+  int len = str.length();
+  int tmp = 1;
