@@ -8,5 +8,9 @@
 //sumNumbers("7 11") → 18
 
 public int sumNumbers(String str) {
- 
-}
+  int sum = 0; 
+  int len = str.length();
+  String tmp = "";
+  for (int i = 0; i < len; i++)
+  if (Character.isDigit(str.charAt(i))) {
+    
