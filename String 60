@@ -7,3 +7,6 @@
 //notReplace("is-is") → "is not-is not" 
 //notReplace("This is right") → "This is not right"
 
+public String notReplace(String str) {
+  
+}
