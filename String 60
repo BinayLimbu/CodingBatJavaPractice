@@ -8,5 +8,6 @@
 //notReplace("This is right") → "This is not right"
 
 public String notReplace(String str) {
-  
-}
+  String result = "";
+  int len = str.length();
+  for (int i = 0; i < len; i++)
