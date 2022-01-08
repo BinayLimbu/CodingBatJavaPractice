@@ -1,0 +1,12 @@
+//Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+//sumDouble(1, 2) → 3
+//sumDouble(3, 2) → 5
+//sumDouble(2, 2) → 8
+
+public int sumDouble(int a, int b) {
+//first calculate sum and store in a local variable
+int sum = a+b;   //function so don't forget ";"
+if (a == b) {    //not && as I previously thought, answer was in the task question itself
+    sum = sum * 2;
+  }
+  return sum;   
