@@ -1,0 +1,17 @@
+//Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+
+//altPairs("kitten") → "kien"
+//altPairs("Chocolate") → "Chole"
+//altPairs("CodingHorror") → "Congrr"
+
+public String altPairs(String str) {
+  String result = "";
+  for (int i = 0; i < str.length(); i += 4) {  //i go up in fours to get inital index [0, 4, 8, etc]
+    int f2 = i + 2;    //final pair (f2) is a variable for making sure final index within bounds of str length.
+    if (f2 > str.length()) {
+      f2 = str.length();    //final pair matches str length cap so allows for dynamic str lengths.
+    }
+    result = result + str.substring(i, f2);    //appends the chars between i and i+2 each iteration until str length.
+    }
+    return result;
+}
