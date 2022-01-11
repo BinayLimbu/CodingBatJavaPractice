@@ -1,0 +1,13 @@
+//Given a non-empty string like "Code" return a string like "CCoCodCode".
+
+//stringSplosion("Code") → "CCoCodCode"
+//stringSplosion("abc") → "aababc"
+//stringSplosion("ab") → "aab"
+
+public String stringSplosion(String str) {
+  String result = "";
+  for (int = 0; i < str.length(); i++) {  //iterate through loop one by one  
+    result = result + str.substring(0, i+1);  //question asks for concatenated compound substrings of char+1 each iteration
+  }
+  return result;
+}
