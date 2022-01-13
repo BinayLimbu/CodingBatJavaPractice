@@ -10,3 +10,8 @@ public int last2(String str) {
   int count = 0;
   if (len < 2) return count;
   String end = str.substring(len-2);
+  for (int i = 0; i < len-2; i++) {
+    if (str.substring(i, i+2).equals(end)) count++;
+  }
+  return count;
+}
