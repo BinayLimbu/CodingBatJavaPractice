@@ -5,3 +5,7 @@
 //dateFashion(5, 10) → 2
 //dateFashion(5, 2) → 0
 //dateFashion(5, 5) → 1
+
+public int dateFashion(int you, int date) {
+  
+}
