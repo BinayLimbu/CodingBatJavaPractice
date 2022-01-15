@@ -5,3 +5,7 @@
 //caughtSpeeding(60, false) → 0
 //caughtSpeeding(65, false) → 1
 //caughtSpeeding(65, true) → 0
+
+public int caughtSpeeding(int speed, boolean isBirthday) {
+  
+}
