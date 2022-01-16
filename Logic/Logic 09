@@ -4,3 +4,7 @@
 //specialEleven(22) → true
 //specialEleven(23) → true
 //specialEleven(24) → false
+
+public boolean specialEleven(int n) {
+  
+}
