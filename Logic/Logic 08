@@ -4,3 +4,7 @@
 //in1To10(5, false) → true
 //in1To10(11, false) → false
 //in1To10(11, true) → true
+
+public boolean in1To10(int n, boolean outsideMode) {
+  
+}
