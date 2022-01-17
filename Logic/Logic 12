@@ -4,3 +4,6 @@
 //less20(19) → true
 //less20(20) → false
 
+public boolean less20(int n) {
+  
+}
