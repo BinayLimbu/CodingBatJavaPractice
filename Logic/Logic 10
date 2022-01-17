@@ -4,3 +4,6 @@
 //more20(21) → true
 //more20(22) → true
 
+public boolean more20(int n) {
+  
+}
