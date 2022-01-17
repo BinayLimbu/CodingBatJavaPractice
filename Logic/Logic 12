@@ -5,5 +5,5 @@
 //less20(20) → false
 
 public boolean less20(int n) {
-  
+  return ((n+1) % 20 == 0) || ((n+2) % 20 == 0); //n+x because mod only returns remainder which is different on higher numbers but difference must be constant x  
 }
