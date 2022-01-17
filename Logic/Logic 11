@@ -3,3 +3,7 @@
 //old35(3) → true
 //old35(10) → true
 //old35(15) → false
+
+public boolean old35(int n) {
+  
+}
