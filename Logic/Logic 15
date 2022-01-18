@@ -6,5 +6,12 @@
 //answerCell(true, false, false) → false
 
 public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
-  
+  if (isAsleep == false) {
+    if (isMorning == true) {
+      if (isMom == true) return true;
+      return false;
+    }
+    return true;
+  }
+  return false;
 }
