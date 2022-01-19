@@ -6,5 +6,6 @@
 //inOrder(1, 1, 2, true) → true
 
 public boolean inOrder(int a, int b, int c, boolean bOk) {
-  
+  if (bOk == true) return (c > b);
+  return (b > a && c > a);
 }
