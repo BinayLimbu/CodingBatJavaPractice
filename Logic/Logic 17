@@ -6,5 +6,9 @@
 //fizzString("fib") → "FizzBuzz"
 
 public String fizzString(String str) {
-  
+  int len = str.length();
+  if (str.charAt(0) == 'f' && str.charAt(len-1) == 'b') return "FizzBuzz";
+  if (str.charAt(0) == 'f') return "Fizz";
+  if (str.charAt(len-1) == 'b') return "Buzz";
+  return str;
 }
