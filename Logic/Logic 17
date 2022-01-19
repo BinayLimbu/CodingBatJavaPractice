@@ -12,3 +12,7 @@ public String fizzString(String str) {
   if (str.charAt(len-1) == 'b') return "Buzz";
   return str;
 }
+
+//You can also use function .startsWith()/.endsWith()
+// boolean f = str.startsWith("f");
+// boolean b = str.endsWith("b");
