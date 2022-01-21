@@ -7,5 +7,8 @@
 //sumLimit(8, 1) → 9
 
 public int sumLimit(int a, int b) {
-  
+  String sum = String.valueOf(a+b);
+  String sa = String.valueOf(a);
+  if (sum.length() == sa.length()) return a + b;
+  return a;
 }
