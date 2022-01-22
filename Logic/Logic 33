@@ -6,5 +6,12 @@
 //luckySum(1, 13, 3) → 1
 
 public int luckySum(int a, int b, int c) {
-  
+  int sum = 0;
+  if (a == 13) return sum;
+  sum += a;
+  if (b == 13) return sum;
+  sum += b;
+  if (c == 13) return sum;
+  sum += c;
+  return sum;
 }
