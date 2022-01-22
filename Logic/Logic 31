@@ -7,6 +7,6 @@
 //makeBricks(3, 2, 10) → true
 
 public boolean makeBricks(int small, int big, int goal) {
-  if (goal / 5 <= big) return (goal % 5 <= small);
-  return (small >= (goal - big * 5));
+  if (goal / 5 <= big) return (goal % 5 <= small);  //if enough big bricks but whether enough small bricks to fill remainder.
+  return (small >= (goal - big * 5));  //if number of small bricks can fill the remainder after big bricks (first if statement checks if there are enough big bricks available for modulo 5).
 }
