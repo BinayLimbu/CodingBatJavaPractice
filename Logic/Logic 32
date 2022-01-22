@@ -11,3 +11,10 @@ public int loneSum(int a, int b, int c) {
   if (b == c && b != a) return a;
   return a+b+c;
 }
+
+//better scaleable implementation using local variable sum:
+//int sum = 0;
+//  if (a != b && a != c) sum += a;
+//  if (b != a && b != c) sum += b;
+//  if (c != a && c != b) sum += c;
+//  return sum;
