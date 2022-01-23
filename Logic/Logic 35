@@ -8,5 +8,5 @@
 //roundSum(6, 4, 4) → 10
 
 public int roundSum(int a, int b, int c) {
-  
+  return round10(a) + round10(b) + round10(c);
 }
