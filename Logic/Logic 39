@@ -6,5 +6,7 @@
 //makeChocolate(4, 1, 7) → 2
 
 public int makeChocolate(int small, int big, int goal) {
-  
-}
+  if (goal / 5 <= big) {
+    if (goal % 5 <= small) return goal % 5;
+    return -1;
+  }
