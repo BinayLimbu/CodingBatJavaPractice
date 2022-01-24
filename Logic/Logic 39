@@ -10,3 +10,7 @@ public int makeChocolate(int small, int big, int goal) {
     if (goal % 5 <= small) return goal % 5;
     return -1;
   }
+    if (small >= (goal - big * 5)) return (goal - big * 5);
+  if (small >= goal) return small;
+  return -1;
+}
