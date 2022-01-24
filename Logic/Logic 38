@@ -4,3 +4,6 @@
 //evenlySpaced(4, 6, 2) → true
 //evenlySpaced(4, 6, 3) → false
 
+public boolean evenlySpaced(int a, int b, int c) {
+  
+}
