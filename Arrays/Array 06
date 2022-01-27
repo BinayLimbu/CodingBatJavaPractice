@@ -5,5 +5,9 @@
 //rotateLeft3([7, 0, 0]) → [0, 0, 7]
 
 public int[] rotateLeft3(int[] nums) {
-  
+  int tmp = nums[0];
+  nums[0] = nums[1];
+  nums[1] = nums[2];
+  nums[2] = tmp;
+  return nums;
 }
