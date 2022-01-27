@@ -5,5 +5,7 @@
 //maxEnd3([2, 11, 3]) → [3, 3, 3]
 
 public int[] maxEnd3(int[] nums) {
-  
+  int max = Math.max(nums[0], nums[2]); 
+  int [] marr = {max, max, max};
+  return marr;
 }
