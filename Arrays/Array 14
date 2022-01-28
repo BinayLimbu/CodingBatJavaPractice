@@ -5,5 +5,7 @@
 //makeLast([3]) → [0, 3]
 
 public int[] makeLast(int[] nums) {
-  
+  int [] r = new int [nums.length*2];
+  r[r.length-1] = nums[nums.length-1];
+  return r;
 }
