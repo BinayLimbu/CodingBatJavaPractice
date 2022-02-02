@@ -5,5 +5,8 @@
 //biggerTwo([1, 1], [1, 2]) → [1, 2]
 
 public int[] biggerTwo(int[] a, int[] b) {
-  
+  int sa = a[0] + a[1];
+  int sb = b[0] + b[1];
+  if (sb > sa) return b;
+  return a;
 }
