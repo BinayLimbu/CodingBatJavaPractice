@@ -8,5 +8,5 @@ public int[] biggerTwo(int[] a, int[] b) {
   int sa = a[0] + a[1];
   int sb = b[0] + b[1];
   if (sb > sa) return b;
-  return a;
+  return a;       //as a is the default outcome no need for: if (sa == sb) return a;
 }
