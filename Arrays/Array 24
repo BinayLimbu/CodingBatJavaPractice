@@ -5,5 +5,7 @@
 //frontPiece([1]) → [1]
 
 public int[] frontPiece(int[] nums) {
-  
+  if (nums.length < 2) return nums;  //if 1 or null
+  int [] n = {nums[0], nums[1]};
+  return n;
 }
