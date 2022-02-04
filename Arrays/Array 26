@@ -6,6 +6,8 @@
 //make2([], [1, 2]) → [1, 2]
 
 public int[] make2(int[] a, int[] b) {
-  int al = a.length;
-  if (al == 0) return new int[]{ b[0], b[1] }; 
+  int al = a.length;    //actually not needed but shortens line
+  if (al == 0) return new int[]{ b[0], b[1] };     //return a new initialised array
   if (al == 1) return new int[]{ a[0], b[0] };
+  return new int[]{ a[0], a[1] };   //no need for if (al > 1) statement as it wouldn't work with initialised array on same line
+}
