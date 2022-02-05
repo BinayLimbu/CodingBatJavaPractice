@@ -13,5 +13,7 @@ public int centeredAverage(int[] nums) {
     for(int i = 0; i < nums.length; i++) {
         sum += nums[i];   //running cumulative total per iteration
         min = Math.min(min, nums[i]);   //find smallest number
-        max = Math.max(max, nums[i]);   //find biggest number
-    }
+        max = Math.max(max, nums[i]);   //find biggest number                      
+    }                       
+    return (sum - min - max) / (nums.length - 2);   //remove the biggest and smallest value from sum then divide by array length (omitting two) to find average.
+}
