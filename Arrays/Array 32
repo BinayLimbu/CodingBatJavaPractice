@@ -6,5 +6,5 @@
 //sum67([1, 1, 6, 7, 2]) → 4
 
 public int sum67(int[] nums) {
-  
-}
+    int sum = 0;
+    boolean inRange = false;   //use boolean to filter outliers
