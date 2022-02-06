@@ -7,11 +7,11 @@
 
 public int sum67(int[] nums) {
     int sum = 0;
-    boolean inRange = false;   //use boolean to filter outliers
+    boolean inRange = false;    //use boolean to filter outliers
     for(int i = 0; i < nums.length; i++) {
         if(nums[i] == 6) inRange = true;
+        if(!inRange) sum += nums[i];   //needs to go before next line to avoid missing pre-6 indexes
         if (inRange && nums[i] == 7) inRange = false;
-        if(!inRange) sum += nums[i];  
   }
   return sum;
 }
