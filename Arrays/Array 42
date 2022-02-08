@@ -11,6 +11,6 @@ public boolean either24(int[] nums) {
     if (nums[i] == 2 && nums[i+1] == 2) two = true;
     if (nums[i] == 4 && nums[i+1] == 4) four = true;
   }
-  if ((two && !four)||(!two && four)) return true;   //can be shortened to: return two += four
+  if ((two && !four)||(!two && four)) return true;   //can be shortened to: return two != four
   return false;
 }
