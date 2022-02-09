@@ -5,5 +5,11 @@
 //haveThree([3, 4, 3, 3, 4]) → false
 
 public boolean haveThree(int[] nums) {
-  
+  int count = 0;
+  if (nums.length < 3) return false;
+  for (int i = 0; i < nums.length-1; i++) {
+    if (nums[i] == 3 && nums[i+1] != 3) count++;
+  }
+  if (nums[nums.length-1] == 3) count++;
+  return (count == 3);
 }
