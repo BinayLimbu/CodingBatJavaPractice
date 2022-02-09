@@ -6,10 +6,11 @@
 
 public boolean twoTwo(int[] nums) {
   if (nums.length == 1 && nums[0] == 2) return false;
-  if (nums.length >= 2 && nums[0] == 2 && nums[1] != 2) return false;       
-  if (nums.length >= 2 && nums[nums.length-1] == 2 && nums[nums.length-2] != 2) return false;     
-  for (int i = 1; i < nums.length-1; i++) {                       
-    if (nums[i] == 2 && nums[i-1] != 2 && nums[i+1] != 2) return false;  
+  if (nums.length >= 2 && nums[0] == 2 && nums[1] != 2) return false;     //checks if begins with 2 and next isn't 2
+  if (nums.length >= 2 && nums[nums.length-1] == 2 && nums[nums.length-2] != 2) return false;      //checks if ends with 2 but no 2 before
+  for (int i = 1; i < nums.length-1; i++) {                         //starts at index 1 to check adjacent indexes
+    if (nums[i] == 2 && nums[i-1] != 2 && nums[i+1] != 2) return false;       //checks if adjacent number is also a 2
   }
   return true;
 }
+
