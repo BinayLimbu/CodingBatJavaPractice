@@ -6,5 +6,14 @@
 //tenRun([10, 1, 9, 20]) → [10, 10, 10, 20]
 
 public int[] tenRun(int[] nums) {
-  
+  int ten = 0;
+  boolean hasTen = false;
+  for (int i = 0; i < nums.length; i++) {
+    if (nums[i] % 10 == 0) {
+      ten = nums[i];
+      hasTen = true;
+    }
+    if (hasTen && nums[i] % 10 != 10) nums[i] = ten;
+  }
+  return nums;
 }
