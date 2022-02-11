@@ -7,5 +7,10 @@
 
 public int[] pre4(int[] nums) {
   int f = 0;
-  while (nums[f] != 4) f++;
+  while (nums[f] != 4) f++;   //while loop breaks automatically when condition false so preferred over a for loop + boolean
   int [] four = new int [f];
+  for (int j = 0; j < f; j++) {
+    four[j] = nums[j];
+  }
+  return four;
+}
