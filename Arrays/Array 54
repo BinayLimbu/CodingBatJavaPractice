@@ -6,5 +6,6 @@
 //pre4([1, 4, 4]) → [1]
 
 public int[] pre4(int[] nums) {
-  
-}
+  int f = 0;
+  while (nums[f] != 4) f++;
+  int [] four = new int [f];
